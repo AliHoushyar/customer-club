@@ -1,0 +1,16 @@
+$('.menubtn').click(function(){
+    $('.sidebar').css({
+        right:"0px"
+    })
+    $('.focus').css({
+        visibility:"visible"
+    })
+})
+$('.side-close').click(function(){
+    $('.sidebar').css({
+        right:"-500px"
+    })
+    $('.focus').css({
+        visibility:"hidden"
+    })
+})

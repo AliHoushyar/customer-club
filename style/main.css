@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "shabnam";
+    src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "tanha";
+    src: url("../fonts/Tanha.woff2") format("woff2");
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "shabnam",sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  scrollbar-width: 0;
+  background-color: #ffffff;
+}
+
+.ddd{
+    background-color: #e4e4e4;
+}
+
+.sidebar{
+    width: 70%;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: #990100;
+    position: fixed;
+    right: -500px;
+    transition: all 250ms ease-in-out;
+    z-index: 100;
+}
+.focus{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(56, 56, 56);
+    opacity: 50%;
+    position: fixed;
+    z-index: 99;
+    visibility: hidden;
+}
+.side-logo{
+    display: flex;
+    align-items: center;
+}
+.side-logo span{
+    font-size: 26px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+.logo{
+    width: 40%;
+}
+.seprator{
+    width: 95%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+.side-close{
+    font-size: 25px;
+    border: none;
+    background-color: #990100;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+.side-btn {
+    width: 90%;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-top: 15px;
+}
+.side-btn span i{
+    margin-left: 7px;
+} 
+/* ################################################### */
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    background-color: #990100;
+}
+.topBar img{
+    width: 26%;
+    transition: all 250ms ease-in-out;
+}
+.menubtn{
+    font-size: 30px;
+    background-color: #990100;
+    border: none;
+    color: #ffffff;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.col{
+    width: 40%;
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 10px;
+}
+.ColTitle{
+    color: #6f6f6f;
+    font-size: 14px;
+}
+.col img{
+    width: 38%;
+}
+/* ######################################################################## */
+.profContainer{
+    width: 90%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.profInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profInfoTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.profInfoTitle img{
+    width: 40%;
+}
+.profInfoTitle span{
+    font-size: 14px;
+}
+.profInfoSath{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profInfoSath img{
+    width: 40%;
+}
+.profInfoSath span{
+    font-size: 12px;
+}
+.Pfeturs{
+    width: 100%;
+    position: relative;
+    right: -12px;
+}
+/* ####################################################### */
+
+.WalletContainer{
+    margin-top: 20px;
+    margin-left: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    background: rgb(255, 255, 255);
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all ease-in-out 0.3s;
+}
+.cardMain{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.cardIMG{
+    width: 22%;
+}
+.cardTitle{
+    font-size: 20px;
+}
+.InfoNum{
+    font-size: 34px;
+    float: left;
+    text-shadow: 2px 1px 0px #fff, 4px 4px 0px rgba(0, 0, 0, 0.114);
+}
+.cardInfo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    direction: ltr;
+    width: 100%;
+}
+.cardInfo img{
+    width: 10%;
+}
+.WalletBTN{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.WalletBTNButtun{
+    background-color: #990100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+    gap: 7px;
+    color: #faf4de;
+}
+.WalletBTNButtun img{
+    width: 20%;
+}
