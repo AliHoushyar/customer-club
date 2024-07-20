@@ -1,0 +1,250 @@
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cat{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.activeCat{
+    border: 1px solid black;
+}
+
+.cat img{
+    width: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.menuItem{
+    width: 95%;
+    height: 400px;
+    position: relative;
+}
+
+.bgi{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.texts{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.menuItemTitle{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 7px;
+}
+
+.mainTitle{
+    font-size: 24px;
+}
+.discription{
+    font-size: 16px;
+    color: rgb(169, 169, 169);
+}
+.menuItemButtons{
+    display: flex;
+    direction: ltr;
+}
+.cart{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+}
+/* ################################# MENU 2 ################################# */
+
+.secMenu{
+    display: grid;
+    grid-template: 1fr / repeat(2, 1fr);
+    grid-gap: 45px 25px;
+    margin-top: 60px;
+    padding: 0px 20px;
+}
+
+.secMenuItem{
+    position: relative;
+    width: 80%;
+    background-color: #ffffff;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 225px;
+    margin-right: 10px;
+}
+
+.secImage{
+    width: 135%;
+    position: absolute;
+    top: -14%;
+    right: -18%;
+    left: 0;
+}
+
+.secMenuTexts{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 60%;
+}
+
+.secDescription{
+    font-size: 10px;
+}
+
+.secMenuButton{
+    position: absolute;
+    bottom: 0px;
+    left: 7px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.price img{
+    width: 20px;
+}
+
+.addCart{
+    border-radius: 15px 0px 15px 0px;   
+    border: none;
+    background-color: #313131;
+    color: white;
+    width: 30px;
+}
+/* ################################# MENU 3 ################################# */
+.thiMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.thMenuItem{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 90px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.thImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.thMenuText{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba( 0, 0, 0, 0.4 );
+    background: rgba( 0, 0, 0, 0.25 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+}
+
+.thMainText{
+    display: flex;
+    flex-direction: column;
+    margin-right: 7px;
+}
+
+.thMainImage{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.thMainTitle{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.thDiscription{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.thPrice{
+    display: flex;
+    color: #ffffff;
+}
+
+.thPrice img{
+    width: 20px;
+}
+
+.thCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 0px 50% 0px 30%;
+    font-size: 26px;
+}
+/* ################################# MENU 4 ################################# */
+.foMenuItem{
+    width: 95%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
