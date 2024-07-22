@@ -1,3 +1,11 @@
+.top{
+    width: 100%;
+    position: fixed;
+    height: 20px;
+    top: 0;
+    background-color: #990100;
+}
+
 .categories{
     display: flex;
     align-items: center;
@@ -5,6 +13,7 @@
     width: 100%;
     gap: 10px;
     margin-top: 10px;
+    margin-top: 30px;
 }
 
 .cat{
@@ -224,6 +233,8 @@
 .thPrice{
     display: flex;
     color: #ffffff;
+    margin-top: -30px;
+    margin-left: 10px;
 }
 
 .thPrice img{
