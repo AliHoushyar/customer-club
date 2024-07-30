@@ -433,3 +433,75 @@ body{
         width: 70px;
     }
 }
+
+.Maincards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.Maincard {
+  width: 250px;
+  height: 90px;
+  background: #262626;
+}
+
+.MainsmallIcon {
+  width: 100%;
+  height: 100%;
+  background-color: #ff5858;
+}
+
+.MainsmallIcon div {
+  background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
+  40%, #e5e5e5 48%);
+  margin-top: 10px;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: load89234 2s infinite;
+  color: #262626;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.MainIcon {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 5px;
+}
+
+.MainName {
+  width: 90px;
+  height: 20px;
+  float: left;
+  transform: translate(10px ,0px);
+  border-radius: 5px;
+}
+
+.MainRoles {
+  width: 40px;
+  height: 20px;
+  float: left;
+  transform: translate(20px ,0px);
+  border-radius: 5px;
+}
+
+.MainDescripion {
+  margin: 10px;
+  width: 140px;
+  height: 45px;
+  float: left;
+  transform: translate(0px ,-5px);
+  border-radius: 5px;
+}
+
+@keyframes load89234 {
+  100% {
+    background-position: -100% 0;
+  }
+}
